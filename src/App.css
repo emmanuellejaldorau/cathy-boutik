@@ -1,23 +1,28 @@
-/* MOBILE-------------------------------------------------------------------------------- */
+/* FONTS-------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-/*--------------------General------------------------*/
+
+/* GENERAL-------------------------------------------------------------------------------- */
 html, body, main {
     height: 100%;
 }
 
+/* MOBILE-------------------------------------------------------------------------------- */
 
 /*--------------------Navigation------------------------*/
 .navigation{
     display:flex;
     justify-content: space-between;
+    align-items: center;
     padding: 5%;
     font-size: 1.6rem;
     background-color: #718e3f;
     color: #fffef2;
 }
 
-.navigation > h5 {
+.navigation > h3 {
     margin: 0;
+    font-family: 'Dancing Script', cursive;
 }
 
 

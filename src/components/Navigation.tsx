@@ -7,7 +7,7 @@ function Navigation(){
     return(
         <nav className="navigation">
             <FontAwesomeIcon icon="bars" />
-            <h5>Cathy Boutiq</h5>
+            <h3>Cathy Boutiq</h3>
             <FontAwesomeIcon icon="shopping-bag" />
         </nav>
     )
