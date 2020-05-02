@@ -1,5 +1,26 @@
 /* MOBILE-------------------------------------------------------------------------------- */
 
+/*--------------------General------------------------*/
+html, body, main {
+    height: 100%;
+}
+
+
+/*--------------------Navigation------------------------*/
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    padding: 5%;
+    font-size: 1.6rem;
+    background-color: #718e3f;
+    color: #fffef2;
+}
+
+.navigation > h5 {
+    margin: 0;
+}
+
+
 /* DESKTOP------------------------------------------------------------------------------- */
 
 @media (min-width: 450px) {

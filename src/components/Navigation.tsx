@@ -1,6 +1,15 @@
+import React from 'react';
+import '../App.css';
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 function Navigation(){
     return(
-        <div>Hello</div>
+        <nav className="navigation">
+            <FontAwesomeIcon icon="bars" />
+            <h5>Cathy Boutiq</h5>
+            <FontAwesomeIcon icon="shopping-bag" />
+        </nav>
     )
 }
 
