@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from './Header';
+
 function Homepage(){
     return(
-        <div>
-            <h1>Hello</h1>
-        </div>
+        <main>
+            <Header />
+        </main>
     )
 }
 
