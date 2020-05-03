@@ -63,38 +63,59 @@ html, body, main {
 /* DESKTOP------------------------------------------------------------------------------- */
 
 @media (min-width: 450px) {
-.navigation{
-    padding: 1% 3%;
-}
 
-.navigation-mobile {
-    display: none;
-}
+    /*--------------------Navigation------------------------*/
+    .navigation{
+        padding: 1% 3%;
+    }
 
-.navigation-desktop {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: 50%;
-}
+    .navigation-mobile {
+        display: none;
+    }
 
-.navigation-desktop > div {
-    display:flex;
-    font-size: 1.3rem;
-}
+    .navigation-desktop {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 50%;
+    }
 
-.navigation-desktop > div > p:first-child {
-    margin-right: 25%;
-}
+    .navigation-desktop > div {
+        display:flex;
+        font-size: 1.3rem;
+    }
 
-.navigation-desktop-search{
-    display:flex;
-    align-items: center;
-}
+    .navigation-desktop > div > p:first-child {
+        margin-right: 25%;
+    }
 
-.navigation-desktop-search > input {
-    margin-left: 5%;
-    border-radius: 5px;
-    padding: 2%;
-}
+    .navigation-desktop-search{
+        display:flex;
+        align-items: center;
+    }
+
+    .navigation-desktop-search > input {
+        margin-left: 5%;
+        border-radius: 5px;
+        padding: 2%;
+    }
+
+    /*--------------------Header------------------------*/
+    .header{
+        border-top: 1px solid #fff;
+    }
+    
+    .header-title{
+        width: 100%;
+        padding: 4% 0 19%;
+    }
+
+    .header-title > h1 {
+        font-size: 2.5rem;
+    }
+
+    .header > img {
+        width: 30%;
+        margin-top: -10%;
+    }
 }
