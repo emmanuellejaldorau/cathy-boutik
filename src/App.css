@@ -18,8 +18,9 @@ html, body, main {
     align-items: center;
     padding: 5%;
     font-size: 1.6rem;
-    background-color: #f9df79;
-    /* background-color: #fbdb6e; */
+    /* background-color: #f9df79; */
+    background-color: #fbdb6e;
+    /* background-color: #ffd761; */
     color: #fffef2;
 }
 
@@ -38,14 +39,15 @@ html, body, main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 1px solid #fff;
 }
 
 .header-title {
-    background-color: #f9df79;
+    background-color: #fbdb6e;
     color: #fffef2;
     display: flex;
     justify-content: center;
-    padding: 10% 0 35%;
+    padding: 8% 0 30%;
     border-radius: 0 0 28% 28%;
 }
 
@@ -55,11 +57,20 @@ html, body, main {
 }
 
 .header > img {
-    width: 55%;
+    width: 50%;
     margin-top: -20%;
 }
 
-
+.header-cta {
+    margin-top: 8%;
+    background-color: #fbdb6e;
+    color: #fffef2;
+    border: 1px solid #fbdb6e;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
 
 
 
@@ -71,10 +82,6 @@ html, body, main {
     .navigation{
         padding: 1% 3%;
     }
-
-    /* .navigation > h3 {
-        font-size: 2.1rem;
-    } */
 
     .navigation-mobile {
         display: none;
@@ -90,6 +97,7 @@ html, body, main {
     .navigation-desktop > div {
         display:flex;
         font-size: 1.3rem;
+        font-weight: bold;
     }
 
     .navigation-desktop > div > p:first-child {
@@ -114,7 +122,8 @@ html, body, main {
     
     .header-title{
         width: 100%;
-        padding: 5% 0 17%;
+        padding: 2% 0 20%;
+        order:-2;
     }
 
     .header-title > h1 {
@@ -123,6 +132,14 @@ html, body, main {
 
     .header > img {
         width: 30%;
-        margin-top: -10%;
+        margin-top: 6%;
+    }
+
+    .header-cta {
+        margin-top: -20%;
+        order: -1;
+        background-color: #e6a85c;
+        color: #fffef2;
+        border: 1px solid #e6a85c;
     }
 }
