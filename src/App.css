@@ -28,7 +28,6 @@ html, body, main {
 .navigation > h3 {
     margin: 0;
     font-family: 'Dancing Script', cursive;
-    font-weight: bold;
 }
 
 .navigation-desktop  {
@@ -148,7 +147,6 @@ html, body, main {
     .navigation-desktop > div {
         display:flex;
         font-size: 1.3rem;
-        font-weight: bold;
     }
 
     .navigation-desktop > div > p:first-child {
@@ -174,26 +172,27 @@ html, body, main {
     
     .header-title{
         width: 100%;
-        padding: 2% 0 20%;
+        padding: 1% 0 15%;
         order:-2;
         border-radius: 0 0 40% 40%;
     }
 
     .header-title > h1 {
-        font-size: 3.2rem;;
+        font-size: 3rem;;
     }
 
     .header > img {
-        width: 30%;
+        width: 25%;
         margin-top: 5%;
     }
 
     .header-cta {
-        margin-top: -20%;
+        margin-top: -15%;
         order: -1;
         background-color: #e6a85c;
         color: #fffef2;
         border: 1px solid #e6a85c;
+        font-size: 1.3rem;
     }
 
     /*--------------------About Us------------------------*/
