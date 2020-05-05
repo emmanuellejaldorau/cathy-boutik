@@ -64,16 +64,45 @@ html, body, main {
 
 .header-cta {
     margin-top: 8%;
-    background-color: #fbdb6e;
+    background-color: #e6a85c;
     color: #fffef2;
-    border: 1px solid #fbdb6e;
+    border: 1px solid #e6a85c;
     border-radius: 6px;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px;
 }
 
+/*--------------------About Us------------------------*/
+.about-us {
+    background-color: #fefee0;
+    padding: 15% 5% 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.about-us > div {
+    background-color: #fff;
+    width: 60%;
+    padding: 8% 8% 5%;
+    margin-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us-icon{
+    font-size: 3.5rem;
+    margin-bottom: 5%;
+    color: #e6a85c;
+}
+
+.about-us-text{
+    font-size: 1.2rem;
+    text-align: center;
+}
 
 /* DESKTOP------------------------------------------------------------------------------- */
 
