@@ -91,6 +91,8 @@ html, body, main {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    border-radius: 0 0 35px 0;
+    box-shadow: -1px 1px 3px lightgrey;
 }
 
 .about-us-icon{
@@ -173,5 +175,27 @@ html, body, main {
         background-color: #e6a85c;
         color: #fffef2;
         border: 1px solid #e6a85c;
+    }
+
+    /*--------------------About Us------------------------*/
+    .about-us {
+        padding: 8%;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    .about-us > div {
+        width: 20%;
+        padding: 5%;
+        margin-bottom: 0;
+    }
+
+    .about-us-icon{
+        font-size: 3rem;
+    }
+
+    .about-us-text{
+        font-size: 1rem;
     }
 }
