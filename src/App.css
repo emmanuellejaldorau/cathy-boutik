@@ -124,6 +124,80 @@ html, body, main {
     text-align: center;
 }
 
+/*--------------------Popular Products------------------------*/
+.popular-products{
+    padding: 15% 5% 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-products > h2 {
+    text-align: center;
+    margin: 5% 0 2%;
+    font-size: 2rem;
+}
+
+.product-tile-list{
+    width:75%;
+}
+
+/*--------------------Product Tile------------------------*/
+.product-tile{
+    border: 1px solid #b2b2b2;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.product-tile > div {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.product-tile-image{
+    background-color: #e7bce7;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-tile img{
+    width: 200px;
+    height: 200px
+}
+
+.product-tile-description{
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.product-tile-price {
+    color: #b2b2b2;
+}
+
+.product-tile-actions {
+    justify-content: space-between;
+}
+
+.product-tile-kilos{
+    display:flex;
+    align-items: center;
+}
+
+.product-tile-kilos > p {
+    padding: 0 10px;
+}
+
+.product-tile-cta{
+    background-color: #202020;
+    color: #fffef2;
+    border: 1px solid #202020;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
 /* DESKTOP------------------------------------------------------------------------------- */
 
 @media (min-width: 450px) {
