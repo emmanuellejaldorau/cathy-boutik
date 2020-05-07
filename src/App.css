@@ -138,15 +138,13 @@ html, body, main {
     font-size: 2rem;
 }
 
-.product-tile-list{
-    width:75%;
-}
 
 /*--------------------Product Tile------------------------*/
 .product-tile{
     border: 1px solid #b2b2b2;
     border-radius: 10px;
     margin-bottom: 10%;
+    width:75%;
 }
 
 .product-tile > div {
@@ -276,7 +274,6 @@ html, body, main {
 
     .about-us > h2 {
         margin: 0 0 1%;
-        font-size: 2rem;
     }
 
     .title-decoration{
@@ -303,5 +300,30 @@ html, body, main {
 
     .about-us-text{
         font-size: 1rem;
+    }
+
+    /*--------------------Popular Products------------------------*/
+    .popular-products{
+        padding: 4% 6%;
+    }
+
+    .popular-products > h2 {
+        margin: 0 0 1%;
+    }
+
+    .product-tile-list{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .product-tile {
+        width: 25%;
+        margin-bottom: 0;
+        margin-right: 2%;
+    }
+
+    .product-tile-price{
+        font-weight: normal;
     }
 }
