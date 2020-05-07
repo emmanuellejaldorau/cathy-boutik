@@ -2,10 +2,17 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import passionFruitImage from '../../images/passion-fruit.png';
 
+interface Props {
+    type: string;
+}
 
-function ProductTile(){
+function ProductTile(props:Props){
+    const width = props.type === "homepage" ? 
+                    window.screen.width > 450 ? "25%" : "75%" 
+                    :  window.screen.width > 450 ? "20%" : "40%";
+    const widthStyle = {width};
     return(
-        <div className="product-tile">
+        <div className="product-tile" style={widthStyle}>
             <div className="product-tile-image">
                 <img src={passionFruitImage} alt="Fruit de la passion" />
             </div>
