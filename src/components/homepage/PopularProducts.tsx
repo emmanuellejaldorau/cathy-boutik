@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductTile from '../ProductTile';
+import ProductTile from '../shared/ProductTile';
 
 function PopularProducts(){
     return(

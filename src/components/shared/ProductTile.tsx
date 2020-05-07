@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import passionFruitImage from '../images/passion-fruit.png';
+import passionFruitImage from '../../images/passion-fruit.png';
 
 
 function ProductTile(){
