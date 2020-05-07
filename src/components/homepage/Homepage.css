@@ -10,7 +10,7 @@
 }
 
 .header-title {
-    background-color: #fbdb6e;
+    background-color: #fce598;
     color: #fffef2;
     display: flex;
     justify-content: center;
@@ -30,9 +30,9 @@
 
 .header-cta {
     margin-top: 8%;
-    background-color: #fbdb6e;
+    background-color: #fce598;
     color: #fffef2;
-    border: 1px solid #fbdb6e;
+    border: 1px solid #fce598;
     border-radius: 25px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -41,7 +41,7 @@
 
 /*--------------------About Us------------------------*/
 .about-us{
-    background-color: #fefee0;
+    background-color: #fefcf4;
     padding: 15% 5% 7%;
     display: flex;
     flex-direction: column;
@@ -198,7 +198,7 @@
     .header-cta {
         margin-top: -15%;
         order: -1;
-        background-color: #fbdb6e;
+        background-color: #fce598;
         color: #fffef2;
         border: 2px solid #fffef2;
         font-size: 1.3rem;

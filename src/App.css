@@ -20,7 +20,7 @@ html, body, main {
     padding: 5%;
     font-size: 1.6rem;
     /* background-color: #f9df79; */
-    background-color: #fbdb6e;
+    background-color: #fce598;
     /* background-color: #ffd761; */
     color: #fffef2;
 }
@@ -36,7 +36,7 @@ html, body, main {
 
 /*--------------------Footer------------------------*/
 footer{
-    background-color: #fbdb6e;
+    background-color: #fce598;
     display: flex;
     justify-content: flex-end;
     align-items: center;
