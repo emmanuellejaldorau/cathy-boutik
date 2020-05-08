@@ -7,9 +7,9 @@ function PopularProducts(){
             <h2>Produits les plus poulaires</h2>
             <div className="title-decoration"></div>
             <div className="product-tile-list">
-                <ProductTile type="homepage" />
-                <ProductTile type="homepage" />
-                <ProductTile type="homepage" />
+                <ProductTile />
+                <ProductTile />
+                <ProductTile />
             </div>
 
         </div>

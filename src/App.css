@@ -39,7 +39,6 @@ html, body, main {
     border: 1px solid #b2b2b2;
     border-radius: 10px;
     margin-bottom: 10%;
-    width:75%;
 }
 
 .product-tile > div {
@@ -145,7 +144,6 @@ footer{
     /*--------------------Product Tile------------------------*/
 
     .product-tile {
-        width: 25%;
         margin-bottom: 0;
         margin-right: 2%;
     }
