@@ -18,7 +18,7 @@ function ProductTile(){
                     <p>1kg</p>
                     <FontAwesomeIcon icon="plus-circle" />
                 </div>
-                <button className="product-tile-cta">Ajoutez au panier</button>
+                <button className="product-tile-cta">Ajouter</button>
             </div>
         </div>
     )

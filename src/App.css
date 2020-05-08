@@ -19,9 +19,7 @@ html, body, main {
     align-items: center;
     padding: 5%;
     font-size: 1.6rem;
-    /* background-color: #f9df79; */
     background-color: #fce598;
-    /* background-color: #ffd761; */
     color: #fffef2;
 }
 
@@ -54,8 +52,7 @@ html, body, main {
 }
 
 .product-tile img{
-    width: 200px;
-    height: 200px;
+    width: 80%;
 }
 
 .product-tile-description{
