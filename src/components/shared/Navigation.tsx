@@ -8,14 +8,8 @@ function Navigation(){
             <FontAwesomeIcon icon="bars" className="navigation-mobile" />
             <h3>Cathy Boutiq</h3>
             <div className="navigation-desktop">
-                <div>
-                    <p>Products</p>
-                    <p>Contact</p>
-                </div>
-                <div className="navigation-desktop-search">
-                    <FontAwesomeIcon icon="search" />
-                    <input type="text" />
-                </div>
+                <p>Products</p>
+                <p>Contact</p>
             </div>
             <FontAwesomeIcon icon="shopping-bag" />
         </nav>
