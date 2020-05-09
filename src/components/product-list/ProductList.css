@@ -36,9 +36,10 @@ input{
         margin-bottom: 10%;
     }
 
+
     /*--------------------Searchbar------------------------*/
     input{
-        width: 90%;
+        width: 86%;
         padding: 1%;
         margin: 5% 0 3%;
         font-size: 1.2rem;

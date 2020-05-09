@@ -23,9 +23,15 @@ nav{
     color: #fffef2;
 }
 
-nav > h3 {
-    margin: 0;
+nav a {
+    text-decoration: none;
+    color: #fffef2;
+}
+
+.navigation-logo {
     font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2.2rem;
 }
 
 .navigation-desktop  {
@@ -117,6 +123,7 @@ footer{
         align-items: center;
         flex-basis: 20%;
         font-size: 1.3rem;
+        text-decoration: none;
     }
 
     /*--------------------Product Tile------------------------*/

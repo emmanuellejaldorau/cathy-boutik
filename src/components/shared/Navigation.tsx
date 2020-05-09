@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Navigation(){
     return(
-        <nav className="navigation">
+        <nav>
             <FontAwesomeIcon icon="bars" className="navigation-mobile" />
-            <h3>Cathy Boutiq</h3>
+            <NavLink to="/" className="navigation-logo">Cathy Boutiq</NavLink>
             <div className="navigation-desktop">
-                <p>Products</p>
+                <NavLink to="/produits">Products</NavLink>
                 <p>Contact</p>
             </div>
             <FontAwesomeIcon icon="shopping-bag" />
