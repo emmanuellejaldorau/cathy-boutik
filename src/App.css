@@ -136,11 +136,11 @@ footer{
         align-items: center;
         flex-basis: 20%;
         font-size: 1.3rem;
+        font-weight: bold;
         text-decoration: none;
     }
 
     /*--------------------Product Tile------------------------*/
-
     .product-tile {
         margin-right: 2%;
         width: 20%;
