@@ -22,12 +22,6 @@ input{
     font-size: 1.2rem;
 }
 
-/*--------------------Product Tile------------------------*/
-.product-tile{
-    width: 45%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
 
 /* DESKTOP-------------------------------------------------------------------------------- */
 @media (min-width: 450px) {
@@ -36,7 +30,6 @@ input{
         margin-bottom: 10%;
     }
 
-
     /*--------------------Searchbar------------------------*/
     input{
         width: 86%;
@@ -44,10 +37,4 @@ input{
         margin: 5% 0 3%;
         font-size: 1.2rem;
     }
-
-    /*--------------------Product Tile------------------------*/
-    .product-tile{
-        width: 20%;
-        margin-bottom: 2%;
-}
 }

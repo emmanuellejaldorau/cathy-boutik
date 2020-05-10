@@ -10,6 +10,7 @@ function PopularProducts(){
                 <ProductTile />
                 <ProductTile />
                 <ProductTile />
+                <ProductTile />
             </div>
 
         </div>
