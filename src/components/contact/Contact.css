@@ -1,0 +1,74 @@
+/* MOBILE-------------------------------------------------------------------------------- */
+.contact {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8% 5% 5%;
+}
+
+.contact-description{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-description h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #e6a85c;
+}
+
+.contact-description p {
+    color: #7e7e7e;
+}
+
+.contact-description > img {
+    width: 50%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 2% 0 5%;
+}
+
+.contact-label {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin: 4% 0; 
+    color: #7e7e7e;
+}
+
+.contact-label > input {
+    padding: 10px;
+    margin-top: 3%;
+    border: 1px solid #7e7e7e;
+    border-radius: 10px;
+}
+
+.contact-label > textarea {
+    margin-top: 3%;
+    border: 1px solid #7e7e7e;
+    border-radius: 10px;
+}
+
+.contact-form > input {
+    align-self: center;
+    margin-top: 5%;
+    background-color: #e6a85c;
+    color: #fffef2;
+    border: 1px solid #e6a85c;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* DESKTOP-------------------------------------------------------------------------------- */
+@media (min-width: 450px) {
+
+}
