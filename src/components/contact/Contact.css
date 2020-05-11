@@ -70,5 +70,38 @@
 
 /* DESKTOP-------------------------------------------------------------------------------- */
 @media (min-width: 450px) {
+    .contact {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 2%;
+        margin-top: 2%;
+    }
+
+    .contact-description{
+        margin: 0;
+        text-align: left;
+    }
+
+    .contact-form{
+        margin: 0;
+    }
+
+    .contact-description h2 {
+        margin-top: 0;
+    }
+
+    .contact-description > img {
+        width: 40%;
+        order: 2;
+        margin-top: 6%;
+    }
+
+    .contact-form{
+        flex-basis: 40%;
+    }
+
+    .contact-label{
+        margin: 2% 0;
+    }
 
 }
