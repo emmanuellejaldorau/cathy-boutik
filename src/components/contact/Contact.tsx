@@ -9,7 +9,7 @@ function Contact(){
                 <img src={avocadoImage} alt="Avocados" />
                 <div>
                     <h2>Contactez-nous</h2>
-                    <p>Vous n'aimez pas les formulaires? <br/>Envoyez nous un email.</p>
+                    <p>Vous n'aimez pas les formulaires? Envoyez nous un email.</p>
                 </div>
             </div>
             <form className="contact-form">
