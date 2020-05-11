@@ -9,7 +9,7 @@ function Navigation(){
             <NavLink to="/" className="navigation-logo">Cathy Boutiq</NavLink>
             <div className="navigation-desktop">
                 <NavLink to="/produits">Products</NavLink>
-                <p>Contact</p>
+                <NavLink to="/contact">Contact</NavLink>
             </div>
             <FontAwesomeIcon icon="shopping-bag" />
         </nav>
