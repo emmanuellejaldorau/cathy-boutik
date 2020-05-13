@@ -11,7 +11,9 @@ function Navigation(){
                 <NavLink to="/produits">Products</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
             </div>
-            <FontAwesomeIcon icon="shopping-bag" />
+            <NavLink to="/panier">
+                <FontAwesomeIcon icon="shopping-bag" />
+            </NavLink>
         </nav>
     )
 }
