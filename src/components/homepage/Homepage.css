@@ -39,6 +39,21 @@
     padding: 10px;
 }
 
+.header-cta:hover{
+    background-color: #fffef2;
+    color: #fce598;
+}
+
+.header-cta > a {
+    text-decoration: none;
+    color: #fffef2;
+}
+
+.header-cta > a:hover {
+    text-decoration: none;
+    color: #fce598;
+}
+
 /*--------------------About Us------------------------*/
 .about-us{
     background-color: #fefcf4;
