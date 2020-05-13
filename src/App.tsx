@@ -7,6 +7,7 @@ import Homepage from './components/homepage/Homepage';
 import ProductList from './components/product-list/ProductList';
 import NotFound from './components/not-found/NotFound';
 import Contact from './components/contact/Contact';
+import Cart from './components/cart/Cart';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/" component={Homepage} />
           <Route path="/produits" component={ProductList} />
           <Route path="/contact" component={Contact} />
+          <Route path="/panier" component={Cart} />
           <Route component={NotFound} />
         </Switch>
         <Footer/>
